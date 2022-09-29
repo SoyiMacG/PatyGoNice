@@ -1,0 +1,47 @@
+.glider__btn {
+    position: absolute;
+    font-size: 40px;
+    height: 40px;
+    width: 40px;
+    top: calc(50% - 35px);
+    z-index: 10;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    background-color: aquamarine;
+
+}
+
+.glider__carousel--store {
+    width: 50%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.glider__container--store {
+    position: relative;
+    overflow: hidden;
+}
+
+.glider__img {
+    width: 98%;
+}
+
+.glider__container--img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.glider {
+    object-fit: contain;
+}
+
+.glider__prev {
+    left: 10px;
+}
+
+.glider__next {
+    right: 10px;
+}
